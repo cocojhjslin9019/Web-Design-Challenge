@@ -1,5 +1,5 @@
 /*
- First External CSS Stylesheet
+CSS Stylesheet
  */
 
 /* Styling for HTML elements */
@@ -13,60 +13,106 @@ body {
   background: #efeee7;
 }
 
-header {
-  background: #333;
-}
+/* Body */
 
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
-}
+/*.navbar {
+  max-height: 50px;
+}*/
+/*.navigation .navbar-brand {
+  color: #373736;
+  margin-left: 0px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  font-family: Menlo, Arial, Helvetica, sans-serif;
+}*/
+/*.navbar {
+  background-color: white;
+  font-size: 25px; 
+}*/
+/*.active, .dropdown-menu .dropdown-item:active a:hover {
+  background-color: white;
+}*/
+/*.dropdown-item {
+  color: #373736;
+}*/
+/*.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #ff9900;
+}*/
 
-h2 {
-  font-size: 24px;
-}
+/*.nav-link:hover {
+  background-color:#f6b500;
+ }*/
 
-a {
+/*.navbar-brand:hover {
+color: #f67700;
+}*/
+/*a {
   color: #d21034;
-}
+  font-size: 15px;
+}*/
 
-/* Selecting elements by class */
-.container {
-  width: 1024px;
-  margin: 0 auto;
+/* Images */
+img{
+  width:100%;
+  height:100%;
 }
+/*.active, .panel:hover {
+  border-color:rgb(255, 196, 0);
+  border-style: solid;
+*/
+/* Title */
+/*.title {
+  color: #373736;
+  font-family: Menlo, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-top: 10px;
+}*/
 
-/* Selecting elements by ID */
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
-}
 
-#figure {
-  position: relative;
-}
+/* Paragraph */
+/*p {
+color: #373736;
+font-family: Menlo, Helvetica, sans-serif;
+font-size: 16px;
+}*/
 
-#bio-name {
-  position: absolute;
-  top: 150px;
-  left: 30px;
-}
+/* Box */
+/*.box {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 10px 30px 10px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
 
-#main-bio {
-  width: 70%;
+}*/
+/* Table */
+/*.table {
+  font-size: 15px;
+  border-top-color: rgb(255, 255, 255);
 }
+*/
 
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
-}
+/* Media Queries */
+/*@media(max-width: 992px) {
+  .navbar-expand-lg {
+  background-color: #000000;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: white;
+  }
+  .navbar-brand {
+    padding: 10px;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+}*/
